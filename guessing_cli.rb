@@ -14,7 +14,6 @@ def run_guessing_game
       puts "The comp guessed #{comp}"
     end
     inp = gets.chomp
-    
+
   end
 end
-    
