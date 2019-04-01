@@ -15,6 +15,7 @@ def run_guessing_game
         puts "The comp guessed #{comp}"
       end
     end
+    puts "Guess a number between 1 and 6."
     inp = gets.chomp
 
   end
