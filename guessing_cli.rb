@@ -8,10 +8,10 @@ def run_guessing_game
     break
   else
     comp = rand(1..6)
-    if inp.to_i == comp 
+    if inp.to_i == comp
       puts "You guessed the correct number!"
       run_guessing_game
-    elsif inp.to_i != comp 
+    elsif inp.to_i != comp
       puts "The computer guessed #{comp}."
       run_guessing_game
     end
