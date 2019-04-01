@@ -7,12 +7,13 @@ def run_guessing_game
     if inp == "exit"
       puts "Goodbye!"
       break
-    end
-    comp = rand(1..6)
-    if inp == comp
-      puts "You guessed the correct number!"
     else
-      puts "The comp guessed #{comp}"
+      comp = rand(1..6)
+      if inp == comp
+        puts "You guessed the correct number!"
+      else
+        puts "The comp guessed #{comp}"
+      end
     end
     inp = gets.chomp
 
