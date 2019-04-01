@@ -5,6 +5,7 @@ def run_guessing_game
   inp = gets.chomp
   until inp == "exit" do
     if inp == "exit"
+      puts "Goodbye!"
       break
     end
     comp = rand(1..6)
@@ -14,6 +15,7 @@ def run_guessing_game
       puts "The comp guessed #{comp}"
     end
     inp = gets.chomp
-
+    
   end
 end
+    
