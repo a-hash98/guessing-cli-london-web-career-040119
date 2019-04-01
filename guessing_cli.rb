@@ -5,7 +5,6 @@ def run_guessing_game
   inp = gets.chomp
   if inp == "exit"
     puts "Goodbye!"
-    break
   else
     comp = rand(1..6)
     if inp.to_i == comp
