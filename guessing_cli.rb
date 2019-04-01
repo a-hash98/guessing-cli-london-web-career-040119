@@ -6,3 +6,4 @@ def run_guessing_game
   if inp == "exit"
     puts "Goodbye"
   end
+end
